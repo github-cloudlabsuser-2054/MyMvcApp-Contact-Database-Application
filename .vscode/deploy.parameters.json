@@ -1,0 +1,16 @@
+{
+    "parameters": {
+        "appServicePlanName": {
+            "type": "string",
+            "defaultValue": "myAppServicePlan"
+        },
+        "webAppName": {
+            "type": "string",
+            "defaultValue": "my-mvc-contact-app"
+        },
+        "location": {
+            "type": "string",
+            "defaultValue": "[resourceGroup().location]"
+        }
+    }
+}
